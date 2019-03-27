@@ -24,24 +24,24 @@ colour manager with background=[0, 0, 0] (black).
 Examples of use:
 
 (1)    
-  newManager = ColourManager()
-  newColour = newManager.nextColour()
-  print newColour
-  print newColour.colourvalues
+ /> newManager = ColourManager()
+ /> newColour = newManager.nextColour()
+ /> print newColour
+ /> print newColour.colourvalues
 
 result:
 
-  Bright Goddamn Red
-  [255, 0, 0]
+ Bright Goddamn Red
+ [255, 0, 0]
 
 
 (2) 
-  newManager = ColourManager([0, 0, 0])
-  colours = []
-  for indx in range(7):
-    colours.append(newManager.nextColour())
-  for entry in colours:
-    print entry, entry.colourvalues
+ newManager = ColourManager([0, 0, 0])
+ colours = []
+ for indx in range(7):
+   colours.append(newManager.nextColour())
+ for entry in colours:
+   print entry, entry.colourvalues
 
 result:
 
