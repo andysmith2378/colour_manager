@@ -26,9 +26,13 @@ Examples of use:
 (1)    
 `
 newManager = ColourManager()
+
 newColour = newManager.nextColour()
+
 print newColour
+
 print newColour.colourvalues
+
 `
 
 result:
