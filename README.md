@@ -24,7 +24,7 @@ colour manager with background=[0, 0, 0] (black).
 Examples of use:
 
 (1)    
-`
+```
 newManager = ColourManager()
 
 newColour = newManager.nextColour()
@@ -33,7 +33,7 @@ print newColour
 
 print newColour.colourvalues
 
-`
+```
 
 result:
 
